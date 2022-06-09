@@ -1,5 +1,5 @@
 {
-  "name": "cdn77",
+  "name": "cdn77-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cdn77": "^1.1.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-fileupload": "^1.4.0"
