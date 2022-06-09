@@ -1,7 +1,7 @@
 const cdn77 = require("cdn77");
 
 exports.postApi = async (req, res) => {
-  const { url } = req.body;
+  const { url } = req.query;
 
   const singer = await cdn77(process.env.WEB_URL, process.env.CDN77_API, true);
 
